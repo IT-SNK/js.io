@@ -133,3 +133,32 @@
 // let car2 = new car('черный', 'mers', '200');
 
 // console.log(car1, car2);//можно добавить (car1.name //car1.price)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//8urok
+function showName() {
+    console.log(this);
+    alert(this.userName);
+}
+const user1 = {
+    userName: 'Alex'
+
+}
+const user2 = {
+    userName: 'John'
+
+}
+showName.call(user1);
+
