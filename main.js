@@ -96,6 +96,17 @@
 // }
 
 //12primer
-let users = ['Жанат', 'Батыр', 'Акака'];
-alert('Мой сын :' + users[1]);                           //console.log(users);
-alert('Жена: ' + users[0]);
+// let users = ['Жанат', 'Батыр', 'Акака'];
+// alert('Мой сын :' + users[1]);                           //console.log(users);
+// alert('Жена: ' + users[0]);
+
+
+// 13 primer
+const myCar = {
+    model: 'BMW',
+    color: 'black',
+    deep: function () {
+        console.log('машина подает сигнал');
+    }
+};
+myCar.deep();
