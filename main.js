@@ -102,11 +102,34 @@
 
 
 // 13 primer
-const myCar = {
-    model: 'BMW',
-    color: 'black',
-    deep: function () {
-        console.log('машина подает сигнал');
-    }
-};
-myCar.deep();
+// const myCar = {
+//     model: 'BMW',
+//     color: 'black',
+//     number: 123654,
+//     arr: [],
+//     deep: function () {
+//         console.log('машина подает сигнал');
+//     }
+// };
+// myCar.deep();
+
+//14 primer
+// const obj1 = {
+//     author: 'nauryz ',
+//     text: ' lorem',
+//     show: function () {
+//         alert(this.author + 'say' + this.text);
+//     }
+// }
+
+//15primer(конструктор)
+
+// function car(color, name, price) {
+//     this.color = color;
+//     this.name = name;
+//     this.price = price;
+// }
+// let car1 = new car('red', 'nexia', '1250000');
+// let car2 = new car('черный', 'mers', '200');
+
+// console.log(car1, car2);//можно добавить (car1.name //car1.price)
