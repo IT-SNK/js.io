@@ -163,3 +163,15 @@
 // showName.call(user1);
 
                                                    // let header = document.querySelector(.header__menu)
+
+
+let комбоA = 6.75;
+let комбоB = 7.5;
+let комбоC = 5.75;
+let комбоD = 8;
+
+let суммаВсехКомбо = комбоA + комбоB + комбоC + комбоD;
+let количествоКомбо = 4;
+
+let средняяЦена = суммаВсехКомбо / количествоКомбо;
+alert (средняяЦена);
