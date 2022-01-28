@@ -56,3 +56,4 @@
 // alert(`privet ${name}  ${surname}`);
 // }
 
+let header = document.querySelector(.header__menu)
