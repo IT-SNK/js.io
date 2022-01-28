@@ -162,4 +162,4 @@ const user2 = {
 }
 showName.call(user1);
 
-let header = document.querySelector(.header__menu)
+// let header = document.querySelector(.header__menu)
