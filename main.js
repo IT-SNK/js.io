@@ -1,5 +1,5 @@
 "use strict"
-"use strict"
+
 // let answer = prompt("Зимой и летом одним цветом");
 
 // if (answer.toLowerCase() == "елка"){
@@ -148,18 +148,18 @@
 
 
 //8urok
-function showName() {
-    console.log(this);
-    alert(this.userName);
-}
-const user1 = {
-    userName: 'Alex'
+// function showName() {
+//     console.log(this);
+//     alert(this.userName);
+// }
+// const user1 = {
+//     userName: 'Alex'
 
-}
-const user2 = {
-    userName: 'John'
+// }
+// const user2 = {
+//     userName: 'John'
 
-}
-showName.call(user1);
+// }
+// showName.call(user1);
 
-// let header = document.querySelector(.header__menu)
+                                                   // let header = document.querySelector(.header__menu)
