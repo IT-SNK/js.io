@@ -8,7 +8,7 @@
 //     alert("xuilo")
 // }
 
-//3primer
+// 3primer
 // let name = prompt("ymya");
 // let surname = prompt("famil");
 //                                                              // alert('privet,' + name + '.fami your' + surname);
