@@ -418,3 +418,4 @@ if (userName == 'Админ') {
 } else {
   alert( "Я вас не знаю" );
 }
+let jsBook = 12;
