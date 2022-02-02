@@ -399,23 +399,218 @@
 
 
 
-let userName = prompt("Кто там?", '');
+// let userName = prompt("Кто там?", '');
 
-if (userName == 'Админ') {
-  let pass = prompt('Пароль?', '');
+// if (userName == 'Админ') {
+//   let pass = prompt('Пароль?', '');
 
-  if (pass == 'Я главный') {
-    alert( 'Здравствуйте!' );
-  } else if (pass == '' || pass == null) {
-    alert( 'Отменено' );
+//   if (pass == 'Я главный') {
+//     alert( 'Здравствуйте!' );
+//   } else if (pass == '' || pass == null) {
+//     alert( 'Отменено' );
+//   } else {
+//     alert( 'Неверный пароль' );
+//   }
+
+
+// } else if (userName == '' || userName == null) {
+//   alert( 'Отменено' );
+// } else {
+//   alert( "Я вас не знаю" );
+// }
+
+
+/////////////////////////////////////////циклы while ///for  ///break ///
+ 
+
+
+
+
+// for (let i = 0; i < 3; i++) alert(i)
+// // Выполнить начало
+// let i = 0;
+// // Если условие == true → Выполнить тело, Выполнить шаг
+// if (i < 3) { alert(i); i++ }
+// // Если условие == true → Выполнить тело, Выполнить шаг
+// if (i < 3) { alert(i); i++ }
+// // Если условие == true → Выполнить тело, Выполнить шаг
+// if (i < 3) { alert(i); i++ }
+// // ...конец, потому что теперь i == 3
+
+
+// let sum = 0;
+
+// while (true) {
+
+//   let value = +prompt("Введите число", '');
+
+//   if (!value) break; // (*)
+
+//   sum += value;
+
+// }
+// alert( 'Сумма: ' + sum );
+
+// for (let i = 0; i < 10; i++) {
+
+//   // если true, пропустить оставшуюся часть тела цикла
+//   if (i % 2 == 0) continue;
+
+//   alert(i); // 1, затем 3, 5, 7, 9
+// }
+////////////////////////////
+// let i = 3;
+// while(i){
+//   alert(i--);
+// }
+
+// let i = 0;
+// while(i++ < 5)
+// alert(i);
+
+// for(let i = 2; i <= 10; ++i){
+//   if(i % 2 == 0)
+//   alert(i);
+// }
+// let firstMan;
+// do {
+// firstMan= prompt('веди число');
+// } while(firstMan <= 100 && firstMan);
+
+//////////////////////////////switch//
+
+// let a = 2 + 2;
+
+// switch (a) {
+//   case 3:  //if(a == 3)
+//     alert( 'Маловато' );
+//     break;
+//   case 4://if(a == 4)
+//     alert( 'В точку!' );
+//     break;
+//   case 5://if(a  5)
+//     alert( 'Перебор' );
+//     break;
+//   default:
+//     alert( "Нет таких значений" );
+// }
+
+// if(browser == 'Edge') {
+//   alert("You've got the Edge!");
+// } else if (browser == 'Chrome'
+//  || browser == 'Firefox'
+//  || browser == 'Safari'
+//  || browser == 'Opera') {
+//   alert( 'Okay we support these browsers too' );
+// } else {
+//   alert( 'We hope that this page looks ok!' );
+// }
+
+
+// switch (browser) {
+//   case 'Edge':
+//     alert( "You've got the Edge!" );
+//     break;
+
+//   case 'Chrome':
+//   case 'Firefox':
+//   case 'Safari':
+//   case 'Opera':
+//     alert( 'Okay we support these browsers too' );
+//     break;
+
+//   default:
+//     alert( 'We hope that this page looks ok!' );
+// }
+
+
+
+// if (dfg == 'salam'){
+//   alert('aleikum');
+// }else if (dfg == 'privet' || dfg == 'xuilo'){
+//   alert('gandon');
+// }else{
+//   ('nu ty shakal');
+// }
+
+
+// const number = +prompt('Введите число между 0 и 3', '');
+// switch(number){ 
+//   case 0:
+//     alert('Вы ввели число 0');
+//     break;
+//   case 1:
+//     alert('Вы ввели число 1');
+//     break;
+//     case 2:
+//       case 3:
+//         alert('Вы ввели число 2, а может и 3');
+//         break;
+//         default :
+// alert("Введено число вне диапазона!");
+// }
+
+///////////////////////////////////function//////////////////////////////////
+
+// let userName = 'Вася';
+
+// function showMessage() {
+//   let message = 'Привет, ' + userName;
+//   alert(message);
+// }
+
+// showMessage();
+
+////////
+// let userName = 'Вася';
+
+// function showMessage() {
+//   userName = "Петя"; // (1) изменяем значение внешней переменной
+
+//   let message = 'Привет, ' + userName;
+//   alert(message);
+// }
+
+// alert( userName ); // Вася перед вызовом функции
+
+// showMessage();
+
+// alert( userName ); // Петя, значение внешней переменной было изменено функцией
+//////////////////////////////
+
+// function showMessage(from, text) { // аргументы: from, text
+//   alert(from + ': ' + text);
+// }
+
+// showMessage('Аня', 'Привет!'); // Аня: Привет! (*)
+// showMessage('Аня', "Как дела?"); // Аня: Как дела? (**)
+
+// function sum(a, b) {
+//   return a + b;
+// }
+
+// let result = sum(1, 2);
+// alert( result ); // 3
+//////////////////////////////////////////////
+
+// function checkAge(age) {
+//   if (age > 18) {
+//     return true;
+//   }
+//   // ...
+//   return confirm('Родители разрешили?');
+// }
+// checkAge(15)
+
+////////////////////////////////////////////////////
+
+function min(a, b) {
+  if (a < b) {
+    return a;
   } else {
-    alert( 'Неверный пароль' );
+    return b;
   }
-
-
-} else if (userName == '' || userName == null) {
-  alert( 'Отменено' );
-} else {
-  alert( "Я вас не знаю" );
 }
-let jsBook = 12;
+min(2, 5) 
+min(3, -1) 
+min(1, 1)
