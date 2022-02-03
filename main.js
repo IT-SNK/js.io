@@ -604,13 +604,91 @@
 
 ////////////////////////////////////////////////////
 
-function min(a, b) {
-  if (a < b) {
-    return a;
-  } else {
-    return b;
-  }
-}
-min(2, 5) 
-min(3, -1) 
-min(1, 1)
+// function min(a, b) {
+//   if (a < b) {
+//     return a;
+//   } else {
+//     return b;
+//   }
+// }
+// min(2, 5) 
+// min(3, -1) 
+// min(1, 1)
+//////////////////////////////////////стрелочные функции////////////////////
+
+// let func = function(arg1, arg2, argN){///////////обычный
+//   return expression;
+// }
+
+// let func = (arg1, arg2, ...argN) => expression//////////////стрелочный
+
+// /////////////////////////////////////
+// let sum = (a, b) => a + b;
+
+// /* Более короткая форма для:
+
+// let sum = function(a, b) {
+//   return a + b;
+// };
+// */
+
+// alert( sum(1, 2) ); // 3
+//////////////////////////////////////////
+
+// let double = function(n){      //обычная функция 
+//   return n*2;
+// }
+// alert(double(6));
+
+// let double = n => n* 2;  //соокращенная функция
+// alert(double(3));
+
+/////////////////////////////////////////////////////
+
+// let age = prompt("Сколько Вам лет?", 18);
+
+// let welcome = (age < 18) ?//вместо if 
+//   () => alert('Привет') :
+//   () => alert("Здравствуйте!");
+
+// welcome(); // теперь всё в порядке
+
+//////////////////////////////////////////////////////////////////
+// function ask(question, yes, no) {
+//   if (confirm(question)) yes()
+//   else no();
+// }
+
+// ask(
+//   "Вы согласны?",
+//   () => alert("Вы согласились."),
+//   () => alert("Вы отменили выполнение.")
+// );
+
+
+
+// function ask(question, yes, no) {
+//   if (confirm(question)) yes()
+//   else no();
+// }
+
+// ask(
+//   "Вы согласны?",
+//   function()
+//    { alert("Вы согласились."); },
+
+//   function() 
+//   { alert("Вы отменили выполнение."); }
+// );
+/////////////////////////////////////////////////
+
+////////////////////////massiv////////////
+// let arr = [2, 5, 3, 9];
+// let resut = (arr[0] * arr[1]) + (arr[2] * arr[3]);
+// alert (resut);
+
+let arr = [];
+
+arr[3] = 'a';
+arr[8] = 'b';
+console.log (arr.length);
