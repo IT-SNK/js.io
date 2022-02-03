@@ -686,9 +686,27 @@
 // let arr = [2, 5, 3, 9];
 // let resut = (arr[0] * arr[1]) + (arr[2] * arr[3]);
 // alert (resut);
+////////////////////////////////////////////////////////////////////////
+/*const lotteryParticipants = [
+  'Alex',
+  'Almaz',
+  'Ruslan',
+  'Bekzod',
+  'Mairambek',
+  'Bektur',
+  'Kanykey',
+  'Altyn',
+  'Nurai',
+  'Aidai'
+]
 
-let arr = [];
+const lottery = (array) => {
+  const getRandomInt = function (max = 9) {
+return Math.floor(Math.random() * max);
+  } 
+  const iter = getRandomInt(lotteryParticipants.length);
+  return [lotteryParticipants[iter]]
+}
 
-arr[3] = 'a';
-arr[8] = 'b';
-console.log (arr.length);
+alert(lottery(lotteryParticipants));*/
+///////////////////////////////////////////////////////////////////////////////
