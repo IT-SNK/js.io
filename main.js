@@ -710,3 +710,95 @@ return Math.floor(Math.random() * max);
 
 alert(lottery(lotteryParticipants));*/
 ///////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////обьекты////////////////////////////
+
+// const nauryz = {
+//   lastName: 'saktagan',
+//   age: 30,
+// };
+// nauryz.lastName = 'Batyrbek';
+
+// alert(nauryz.lastName);
+// alert(nauryz.age);
+
+////////////////////////////////////////
+// function makeUser(name, age) {
+//   return {
+//     name: name,
+//     age: age
+//     // ...другие свойства
+//   };
+// }
+
+// let user = makeUser("John", 30);
+// alert(user.name); // John
+///////////////////////////////////////////////
+
+////для проверки
+
+// let user = { 
+//   name: "John",
+//   age: 30 };
+
+// alert( "age" in user ); // true, user.age существует
+// alert( "blabla" in user ); // false, user.blabla не существует
+
+/////////////////////////////////////////
+
+// let user = {
+//   name: "John",
+//   age: 30,
+//   isAdmin: 'XUILO',
+// };
+
+// for(let key in user){
+//   alert ( key );
+//   alert (user[key]);
+// }
+///////////////////////////////////////////////
+///////////////////////////////целочисленные//////////////
+
+// let codes = {
+//   "+49": "Германия",
+//   "+41": "Швейцария",
+//   "+44": "Великобритания",
+//   // ..,
+//   "+1": "США"
+// };
+
+// for (let code in codes) {
+//   alert( +code ); // 49, 41, 44, 1
+// }
+//////////////////////////////////////////////
+
+// let user = {};
+// user.name = 'John';
+// user.surname = 'Smith';
+// user.name = 'Pete';
+// delete user.name;
+// alert(user);
+// /////////////////////////////////////////////////
+
+// function isEmpty(obj) {
+//   for (let key in obj) {
+//     // если тело цикла начнет выполняться - значит в объекте есть свойства
+//     return false;
+//   }
+//   return true;
+// }
+// /////////////////////////////////////////
+
+// let salaries = {
+//   John: 100,
+//   Ann: 160,
+//   Pete: 130
+// };
+
+// let sum = 0;
+// for (let key in salaries) {
+//   sum += salaries[key];
+// }
+
+// alert(sum); // 390
+// ////////////////////////////////////////////////////////
