@@ -802,7 +802,4 @@ alert(lottery(lotteryParticipants));*/
 
 // alert(sum); // 390
 // ////////////////////////////////////////////////////////
-const firstName = function (){
-  return firstName;
-}
-firstName()
+alert('xuilo');
