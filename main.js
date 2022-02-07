@@ -802,4 +802,7 @@ alert(lottery(lotteryParticipants));*/
 
 // alert(sum); // 390
 // ////////////////////////////////////////////////////////
-alert('xuilo');
+'use strict'
+const link= document.querySelector('.header__link');
+
+console.log(link);
