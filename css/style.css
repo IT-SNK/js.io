@@ -1,4 +1,86 @@
-.header__menu{
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border:0;/*убрать края радиусов*/
+    
+}
+body{
+    font-family: 'Montserrat';
+}
+.header {
+    max-width: 100%;
+    min-height: 560px;
+    background:url(../img/fon.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.container {
+    max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.header__menu {
     display: flex;
     justify-content: space-between;
+    padding: 21px 175px 0 175px;
+}
+.header__list {
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+.header__about {
+ list-style-type: none;
+}
+/* .header__about a:nth-child(1) {
+  
+} */
+.header__link{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+.header__link:last-child{
+    margin-left: 38px;
+}
+.header__logo{
+    width: 155px;
+}
+.header__logo a {
+    
+    text-decoration: none;   
+}
+.header__logotext {
+    font-size: 40px;
+    font-weight: 900;
+    color: #00FEFF;
+}
+.header__logotext span{
+    color: #ffffff;
+}
+.header__text {
+    color: #00FEFF;
+    font-size:10px ;
+    line-height: 0px;
+    text-decoration: underline;
+    /* letter-spacing: 10px; */
+}
+.header__center {
+    
+}
+.header__contacts p {
+    font-style: normal;
+font-weight: normal;
+font-size: 15px;
+color: #ffffff;
+}
+.header__phone {
+    font-style: normal;
+font-weight: 600;
+font-size: 17px;
+color: #ffffff;
+text-decoration: none;
 }
